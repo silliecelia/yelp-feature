@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #BD1F1F;">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>messages-white-on-red</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="messages-white-on-red" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M8.5,20 C8.4355,20 8.3705,19.988 8.3085,19.962 C8.1215,19.885 8,19.702 8,19.5 L8,17 L5,17 C4.4485,17 4,16.5515 4,16 L4,6 C4,5.4485 4.4485,5 5,5 L19,5 C19.5515,5 20,5.4485 20,6 L20,16 C20,16.5515 19.5515,17 19,17 L13,17 L8.8535,19.8535 C8.758,19.949 8.63,20 8.5,20 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,417 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+p {
+  font-family: Helvetica;
+  color: #333;
+}
+
+a {
+  font-family: Helvetica;
+  color: #333;
+}
+
+h1 {
+  font-family: Helvetica;  
+  color: #333;
+}
+
+h2  {
+  font-family: Helvetica;  
+  color: #333;
+}
+
+h3 {
+  font-family: Helvetica;  
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #d32323;
+  height: 80px;
+}
+
+.header-content {
+  margin-left: 200px;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 40px;
+  float: left;
+  display: block;
+  margin: 10px 18px 18px 0px;
+}
+
+#search-text-input{
+    float: left;
+    height: 36px;
+    margin-top: 11px; 
+    outline: 0;
+    padding: .4em 0 .4em .6em; 
+    width: 650px; 
+    border-radius: 3px 0px 0px 3px;
+    font-family: Helvetica;
+}
+  
+#button-holder{
+    background-color: #bd1f1f;
+    cursor: pointer;
+    float: left;
+    width: 60px;
+    height: 36px;
+    margin: 12px 0 0 0;
+    text-align: center;
+    border-radius: 0px 3px 3px 0px;
+}
+  
+#button-holder img{
+    margin: 6px;
+    width: 20px;
+}
+
+.messages {
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin: 18px 0px 20px 20px;
+}
+
+.bell {
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin: 18px 20px 20px 20px;
+}
+
+.bell a:hover {
+  background: url("images/bell-white-on-red.svg");
+}
+
+.messages a:hover {
+  background: url("images/messages-white-on-red.svg");
+}
+
+.account-link {
+  background-color: pink;
+  width: 58px;
+  height: 36px;
+  float: left;
+  margin: 12px 0px 0px 0px;
+}
+
+.header-img {
+  width: 100%;
+}
+
+nav {
+  background-color: #bd1f1f;
+  height: 25px;
+  width: auto;
+  float: center;
+}
+
+nav a {
+  font-family: Helvetica;
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.secondary-nav ul {
+  padding-left: 200px;
+  line-height: 1.6em;
+}
+
+/* Body */
+
+/* PROFILE CONTAINER*/
+.profile-container {
+  background-color: #f5f5f5;
+  width: auto;
+  height: 200px;
+  padding-top: 20px;
+}
+
+.profile-picture {
+  width: 215px;
+  height: 215px;
+  background-color: pink;
+  /* <img src="https://s3-media2.fl.yelpcdn.com/photo/1VwfMSukewQQfDFPu4U1TQ/ls.jpg"> */
+  border-radius: 3px;
+  float: left;
+  margin-left: 200px;
+}
+
+.profile-info {
+  width: 465px;
+  height: 100px;
+  float: left;
+  margin-left: 30px;
+}
+
+.profile-info h1 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2em;
+  margin-top: 58px;
+  margin-bottom: 6px;
+}
+
+.profile-info p {
+  font-size: 16px;
+  line-height: 1.3125em;
+}
+
+.profile-info li p {
+  font-size: 14px;
+  display: inline;
+  margin-right: 20px;
+}
+
+.profile-actions {
+  width: 248px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+
+}
+
+.profile-actions a {
+  text-decoration: none;
+  color: #0073bb;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0.3em;
+  padding-top: 26px;
+  padding-left: 40px;
+    border-left: 1px solid #c6c6c6;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    float: left;
+}
+
+/* SUPER CONTAINER */
+
+.super-container {
+  width: auto;
+  height: 500px;
+}
+
+/* Vertical Nav */
+.vertical-nav {
+  width: 215px;
+  height: 630px;
+  float: left;
+  clear: both;
+  margin-right: 20px;
+  margin-left: 200px;
+}
+
+.vertical-nav h3 {
+  font-weight: bold;
+  margin-top: 20px;
+  line-height: 50px;
+}
+
+.vertical-nav a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  padding: 12px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.vertical-nav a:hover {
+  background-color: #e6e6e6;
+}
+
+/* User Details Overview */
+
+.user-details-overview {
+  width: 742px;
+  height: 500px;
+  float: left;
+}
+
+.empty {
+  clear: both;
+  float: left;
+}
+
+.notifications {
+  width: 465px;
+  height: 100px;
+  float: left;
+  clear: both;
+  margin-right: 20px;
+}
+
+.notifications h2 {
+  font-family: Helvetica;
+  font-size: 21px;
+  font-weight: bold;
+  color: #d32323;
+  line-height: 1.3em;
+  padding-bottom: 10px;
+}
+
+.recent-activity {
+  width: 465px;
+  clear: both;
+  float: left;
+  margin-bottom: 400px;
+  padding-right: 15px;
+}
+
+.recent-activity h2 {
+  font-family: Helvetica;
+  font-size: 21px;
+  font-weight: bold;
+  color: #d32323;
+  line-height: 1.3em;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 10px;
+}
+
+.content-item {
+  padding: 18px 0;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 17px;
+}
+
+.restaurant-avatar {
+  background-color: pink;
+  width: 72px;
+  height: 106px;
+  vertical-align: baseline;
+  display: block;
+
+}
+
+.restaurant-photo {
+  background-color: yellow;
+  width: 60px;
+  height: 60px;
+}
+
+.restaurant-story {
+  background-color: red;
+  min-width: 0;
+  min-height: 0;
+}
+
+.sidebar {
+  width: 216px;
+  height: 550px;
+  float: left;
+  border-left: 1px solid #e6e6e6;
+}
+
+.sidebar h2 {
+  color: #d32323;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.sidebar p {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 2.0em;
+}
+
+.view-stats p {
+  font-size: 14px;
+}
+
+.icon-list li {
+  font-family: Helvetica;
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 1.6em;
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: 25px;
+}
+
+.sidebar-section {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.sidebar-section h4 {
+  font-size: 14px;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.sidebar-section li {
+  font-size: 14px;
+  font-family: Helvetica;
+  line-height: 1.6em;
+}
+
+.sidebar-section span {
+  font-weight: bold;
+}
+
+.more a {
+  text-decoration: none;
+  color: #0073bb;
+  font-weight: 12px;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  width: auto;
+  height: 600px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ccc;
+  clear: both; 
+}
+
+.footer-info-header {
+  width: 218px;
+  float: left;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.footer-info-header h3 {
+  font-family: Helvetica;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  color: #d32323;
+  font-size: 16px;
+  line-height: 1.3125em;
+}
+
+.footer-info-header a {
+  font-family: Helvetica;
+  text-decoration: none;
+  display: block;
+  color: #0073bb;
+  line-height: 30px;
+  font-size: 14px;
+}
